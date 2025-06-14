@@ -1,1 +1,22 @@
 ogrenme_stili_tespiti.py
+def ogrenme_stili_belirle(cevaplar):
+    """
+    Öğrencinin öğrenme stilini basit bir kurala göre belirler.
+    """
+
+    gorsel = cevaplar.count("görsel")
+    isitsel = cevaplar.count("işitsel")
+    kinestetik = cevaplar.count("kinestetik")
+
+    if gorsel > isitsel and gorsel > kinestetik:
+        return "Görsel Öğrenen"
+    elif isitsel > gorsel and isitsel > kinestetik:
+        return "İşitsel Öğrenen"
+    elif kinestetik > gorsel and kinestetik > isitsel:
+        return "Kinestetik Öğrenen"
+    else:
+        return "Karma Öğrenen"
+
+# Örnek kullanım
+cevaplar = ["görsel", "görsel", "işitsel", "kinestetik", "görsel"]
+print("Öğrenme Stili:", ogrenme_stili_belirle(cevaplar))
