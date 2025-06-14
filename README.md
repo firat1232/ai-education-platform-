@@ -29,7 +29,7 @@ Günümüzde eğitime erişimde eşitsizlik ciddi bir sorundur. Bu proje; öğre
 
 ## 📷 Ekran Görüntüleri
 
-*(Buraya ileride sistemin görsellerini koyacağız – istersen şimdi basit bir şema bile olur)*
+
 
 ---
 
